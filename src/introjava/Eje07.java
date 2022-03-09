@@ -21,11 +21,11 @@ public class Eje07 {
     public static void main(String[] args) {
         Scanner leer = new Scanner (System.in);
         System.out.println("Ingrese un numero");
-        int num;
+        int numero;
         
-        num = leer.nextInt();
+        numero = leer.nextInt();
         
-        if (num %2==0) {
+        if (numero %2==0) {
             System.out.println("El numero ingresado es PAR");
         } else {
             System.out.println("El numero ingresado es IMPAR");
